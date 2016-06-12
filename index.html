@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-ng-app="SPA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKINS INFO</title>
+</head>
+<body data-ng-controller="appController">
+
+    <img id="background" src="assets/img/background.jpg"/>
+
+    <div id="header">
+        <div id="logo">
+            <img id="skinsInfo" src="assets/img/logo/skins-info.png"/>
+            <img id="counterStrike" src="assets/img/logo/counter-strike.png"/>
+            <img id="globalOffensive" src="assets/img/logo/global-offensive.png"/>
+        </div>
+        <div id="buttons">
+            <button type="button" class="btn btn-danger"
+                    data-ng-click="setCurrentCategory('pistols')">Pistols <img class="buttonIcon" src="assets/img/icon/pistol.png"/></button>
+            <button type="button" class="btn btn-primary"
+                    data-ng-click="setCurrentCategory('rifles')">Rifles <img class="buttonIcon" src="assets/img/icon/rifle.png"/></button>
+            <button type="button" class="btn btn-danger"
+                    data-ng-click="setCurrentCategory('smgs')">SMGs <img class="buttonIcon" src="assets/img/icon/smg.png"/></button>
+            <button type="button" class="btn btn-primary"
+                    data-ng-click="setCurrentCategory('heavy')">Heavy <img class="buttonIcon" src="assets/img/icon/heavy.png"/></button>
+            <button type="button" class="btn btn-danger"
+                    data-ng-click="setCurrentCategory('knives')">Knives <img class="buttonIcon" src="assets/img/icon/knife.png"/></button>
+            <button type="button" class="btn btn-primary chosen"
+                    data-ng-click="setCurrentCategory('chosen')"><i class="glyphicon glyphicon-star"></i></button>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="weaponBlock" data-ng-repeat="weapon in weapons | filter:{category:currentCategory}">
+            <a href="{{weapon.href}}" target="_blank"><img class="weaponImage" src="{{weapon.src}}"/></a>
+            <button class="btn btn-warning btn-chose" data-ng-click="getChosenWeapons(weapon)" data-ng-show="weapon.showSaveButton">
+                <i class="glyphicon glyphicon-plus"></i></button>
+            <button class="btn btn-warning btn-chose" data-ng-click="deleteChosenWeapon(weapon)" data-ng-show="showDeleteButton">
+                <i class="glyphicon glyphicon-remove"></i></button>
+            <p id="name" data-ng-show="showDetails">{{weapon.name}}</p>
+            <p id="details" data-ng-show="showDetails">{{weapon.details}}</p>
+        </div>
+        <div id="greeting" data-ng-hide="currentCategory">
+            <p class="text-justify">Skins-Info is single page application the website intended for superficial acquaintance with the sphere of skins in CS:GO. On our website you will be able to examine with the best (in our opinion) skins and to follow the link to the page devoted to this weapon.</p>
+        </div>
+    </div>
+
+</body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/styleApp.css"/>
+<script src="assets/libs/angular.min.js"></script>
+<script type="text/javascript" src="app/appController.js"></script>
+</html>

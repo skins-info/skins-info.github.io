@@ -1,0 +1,91 @@
+{"results" : [
+  {"name": "Deagle", "href": "https://csgostash.com/skin/68/Desert-Eagle-Blaze",
+    "src":"assets/img/guns/deagle.png", "category": "pistols", "details":"7/35 | 93", "showSaveButton": true},
+
+  {"name": "Five-Seven", "href": "https://csgostash.com/skin/131/Five-SeveN-Case-Hardened",
+    "src":"assets/img/guns/five-seven.png", "category": "pistols", "details":"20/100 | 91", "showSaveButton": true},
+
+  {"name": "Glock-18", "href": "https://csgostash.com/skin/9/Glock-18-Fade",
+    "src":"assets/img/guns/glock-18.png", "category": "pistols", "details":"20/120 | 47", "showSaveButton": true},
+
+  {"name": "P250", "href": "https://csgostash.com/skin/29/P250-Nuclear-Threat",
+    "src":"assets/img/guns/p250.png", "category": "pistols", "details":"13/26 | 77.5", "showSaveButton": true},
+
+  {"name": "Tec-9", "href": "https://csgostash.com/skin/28/Tec-9-Nuclear-Threat",
+    "src":"assets/img/guns/tec-9.png", "category": "pistols", "details":"24/120 | 90.5", "showSaveButton": true},
+
+  {"name": "USP-S", "href": "https://csgostash.com/skin/658/USP-S-Kill-Confirmed",
+    "src":"assets/img/guns/usp-s.jpg", "category": "pistols", "details":"12/24 | 50.5", "showSaveButton": true},
+
+  {"name": "AK-47", "href": "https://csgostash.com/skin/628/AK-47-Hydroponic",
+    "src":"assets/img/guns/ak-47.png", "category": "rifles", "details":"30/90 | 77.5", "showSaveButton": true},
+
+  {"name": "AWP", "href": "https://csgostash.com/skin/422/AWP-Dragon-Lore",
+    "src":"assets/img/guns/awp.png", "category": "rifles", "details":"10/30 | 97.5", "showSaveButton": true},
+
+  {"name": "M4A1-S", "href": "https://csgostash.com/skin/611/M4A1-S-Icarus-Fell",
+    "src":"assets/img/guns/m4a1-s.png", "category": "rifles", "details":"30/90 | 70", "showSaveButton": true},
+
+  {"name": "M4A4", "href": "https://csgostash.com/skin/355/M4A4-Howl",
+    "src":"assets/img/guns/m4a4.png", "category": "rifles", "details":"20/40 | 70", "showSaveButton": true},
+
+  {"name": "SSG-08", "href": "https://csgostash.com/skin/124/SSG-08-Blood-in-the-Water",
+    "src":"assets/img/guns/ssg-08.png", "category": "rifles", "details":"10/90 | 85", "showSaveButton": true},
+
+  {"name": "AUG", "href": "https://csgostash.com/skin/629/AUG-Akihabara-Accept",
+    "src":"assets/img/guns/aug.png", "category": "rifles", "details":"30/90 | 90", "showSaveButton": true},
+
+  {"name": "MAC-10", "href": "https://csgostash.com/skin/591/MAC-10-Fade",
+    "src":"assets/img/guns/mac-10.png", "category": "smgs", "details":"30/100 | 57.5", "showSaveButton": true},
+
+  {"name": "MP-7", "href": "https://csgostash.com/skin/571/MP7-Nemesis",
+    "src":"assets/img/guns/mp7.png", "category": "smgs", "details":"30/120 | 62.5", "showSaveButton": true},
+
+  {"name": "MP-9", "href": "https://csgostash.com/skin/13/MP9-Bulldozer",
+    "src":"assets/img/guns/mp9.png", "category": "smgs", "details":"30/120 | 60", "showSaveButton": true},
+
+  {"name": "PP-BIZON", "href": "https://csgostash.com/skin/400/PP-Bizon-Osiris",
+    "src":"assets/img/guns/pp-bizon.png", "category": "smgs", "details":"64/120  | 57.5", "showSaveButton": true},
+
+  {"name": "P90", "href": "https://csgostash.com/skin/70/P90-Death-by-Kitty",
+    "src":"assets/img/guns/p90.png", "category": "smgs", "details":"50/100 | 69", "showSaveButton": true},
+
+  {"name": "UMP-45", "href": "https://csgostash.com/skin/193/UMP-45-Blaze",
+    "src":"assets/img/guns/ump-45.png", "category": "smgs", "details":"25/100 | 65", "showSaveButton": true},
+
+  {"name": "MAG-7", "href": "https://csgostash.com/skin/185/MAG-7-Bulldozer",
+    "src":"assets/img/guns/mag-7.png", "category": "heavy", "details":"5/32 | 75", "showSaveButton": true},
+
+  {"name": "NOVA", "href": "https://csgostash.com/skin/273/Nova-Antique",
+    "src":"assets/img/guns/nova.png", "category": "heavy", "details":"8/32 | 50", "showSaveButton": true},
+
+  {"name": "SAWED-OFF", "href": "https://csgostash.com/skin/250/Sawed-Off-The-Kraken",
+    "src":"assets/img/guns/sawed-off.png", "category": "heavy", "details":"7/32 | 75", "showSaveButton": true},
+
+  {"name": "XM1014", "href": "https://csgostash.com/skin/508/XM1014-Tranquility",
+    "src":"assets/img/guns/xm1014.png", "category": "heavy", "details":"7/32 | 80", "showSaveButton": true},
+
+  {"name": "M249", "href": "https://csgostash.com/skin/651/M249-Nebula-Crusader",
+    "src":"assets/img/guns/m249.png", "category": "heavy", "details":"100/200 | 80", "showSaveButton": true},
+
+  {"name": "NEGEV", "href": "https://csgostash.com/skin/574/Negev-Loudmouth",
+    "src":"assets/img/guns/negev.png", "category": "heavy", "details":"150/200 | 75", "showSaveButton": true},
+
+  {"name": "BAYONET", "href": "https://csgostash.com/skin/536/Bayonet-Doppler",
+    "src":"assets/img/guns/bayonet.jpg", "category": "knives", "details":"", "showSaveButton": true},
+
+  {"name": "M9-BAYONET", "href": "https://csgostash.com/skin/543/M9-Bayonet-Marble-Fade",
+    "src":"assets/img/guns/m9-bayonet.jpg", "category": "knives", "details":"", "showSaveButton": true},
+
+  {"name": "KARAMBIT", "href": "https://csgostash.com/skin/333/Karambit-Fade",
+    "src":"assets/img/guns/karambit.jpg", "category": "knives", "details":"", "showSaveButton": true},
+
+  {"name": "BUTTERFLY", "href": "https://csgostash.com/skin/456/Butterfly-Knife-Crimson-Web",
+    "src":"assets/img/guns/butterfly.jpg", "category": "knives", "details":"", "showSaveButton": true},
+
+  {"name": "FLIP", "href": "https://csgostash.com/skin/532/Flip-Knife-Tiger-Tooth",
+    "src":"assets/img/guns/flip.jpg", "category": "knives", "details":"", "showSaveButton": true},
+
+  {"name": "DAGGERS", "href": "https://csgostash.com/skin/669/Shadow-Daggers-Slaughter",
+    "src":"assets/img/guns/shadow_daggers.jpg", "category": "knives", "details":"", "showSaveButton": true}
+]}
